@@ -1,0 +1,81 @@
+#spanTitleOrder{
+    color: orange;
+}
+#RowTitleOrder{
+    text-align: left;
+}
+
+#LinkitleOrder{
+    text-decoration: none;
+    color: black;
+}
+
+#LinkitleOrder:hover{
+    text-decoration: underline;
+    color: orange
+}
+.search-order{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.myButton3 {
+	box-shadow:inset 0px 1px 3px 0px #000000;
+	background:linear-gradient(to bottom, #000000 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:15px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.myButton3:hover {
+	background:linear-gradient(to bottom, #4d4d4d 5%, #000000 100%);
+	background-color:#000000;
+}
+.myButton3:active {
+	position:relative;
+	top:1px;
+}
+
+#searchAndButton{
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonserachOrder{
+    margin-left: 10px;
+    padding: 10px;
+    width: 150px;
+}
+
+.dAZYal{
+    width: 300px;
+}
+
+.FormSelectOrder{
+    border-radius: 5px;
+    width: 150px;
+}
+
+#sentnceInOrder{
+    margin: 100px;
+}
+
+.orderCardOrder{
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin: 5px;
+    margin-top: 20px;
+}
+.pag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

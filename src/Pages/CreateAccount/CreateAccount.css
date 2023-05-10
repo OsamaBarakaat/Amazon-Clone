@@ -1,0 +1,71 @@
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+  }
+  
+  form {
+    background-color: white;
+    /* padding: 0px 100px; */
+    border-radius: 10px;
+  }
+  #lableCreateAcc{
+    font-size: x-small;
+  }
+  h1 {
+    color: #ab3518;
+    text-align: center;
+  }
+  #delevery{
+    font-size: xx-small;
+  }
+  
+  button {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: #ab3518;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  
+  #CreateAccount{
+    border: 1px solid gray;
+    border-radius: 8px;
+  }
+
+  #CreateAccountContinueButton{
+    margin-top: 20px;
+    width: 100%;
+  }
+  #CreateAccountContinueA{
+    display: inline;
+  }
+  #CreateAccountContinueTitle{
+    text-align: center;
+  }
+
+  #CreateAccountContinueImg2{
+    width: 200px;
+    height: auto;
+    display: inline-flex;
+    justify-content: center;
+    
+  }
+
+  #CreateAccountContinueHr{
+    border: 0;
+    height: 2px;
+    font-size: larger;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+  #CreateAccountContinueTerms{
+    text-align: center;
+  }

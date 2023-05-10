@@ -1,0 +1,24 @@
+.header,.footer{
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+
+.header{
+    background-color: rgba(183, 176, 176, 0.541);
+}
+
+#orderDetails,#Invoc, #ArchiveOrderInORderCard{
+    text-decoration: none;
+    margin: 2px;
+}
+
+#DiliverdDate,#soldBy,#priceInOrderCard,#ArchiveOrderInORderCard{
+    text-align: left;
+}
+
+#DiliverdDate{
+    margin-left: 20px;
+}
+#textLeft{
+    text-align: left;
+}

@@ -1,0 +1,10 @@
+.review-content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.starBtn{
+    color: orange;
+    cursor: pointer;
+}

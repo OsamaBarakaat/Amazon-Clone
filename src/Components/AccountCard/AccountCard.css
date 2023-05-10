@@ -1,0 +1,29 @@
+#imgAccountCard{
+    width: 70px;
+    height: auto;
+    
+}
+.imgg{
+    display: flex;
+    justify-content: left;
+}
+
+#AccountCardTitleCard, #AccountCardTitleCardP{
+    font-size: 60%;
+    font-weight: bold;
+    text-align: left;
+}
+#AccountCardTitleCardP{
+    font-size: 80%;
+    
+}
+
+
+#cardBodyAll{
+    margin: 5px;
+}
+
+#cardBodyAll:hover{
+    cursor: pointer;
+    background-color: rgba(205, 200, 200, 0.426);
+}

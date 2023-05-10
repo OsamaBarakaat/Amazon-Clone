@@ -1,0 +1,43 @@
+
+.titel{
+    /* width: 100%; */
+    font-size: 16px;
+    margin-bottom: 6px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-weight: bold;
+}
+.sub_title{
+    font-size: 14px;
+    color: #DDDDDD;
+}
+li:hover{
+    text-decoration: underline;
+    color: #DDDDDD;
+}
+.ul_footer{
+    display: flex;
+    justify-content: center;
+    margin: 4px;
+}
+.ul_footer li{
+    padding: 0px 7.2px;
+}
+.text-footer{
+    color: black;
+    font-weight: 500;
+    font-size: 13px; 
+    display: block; 
+  }
+  .loginbtn{
+    max-width: 230px;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 230px;
+    color: black;
+    font-size: 12px ;
+    font-weight: 800;
+    height: 28px;
+    background-position: -10px -170px;
+    background-image: url(https://m.media-amazon.com/images/S/sash/vfqcwUkuArEiwD2.png);
+  }

@@ -1,0 +1,119 @@
+.SignIn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 70vh; */
+    background-position: center;
+  }
+ #SignIn{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 90%;
+      width: 390px;
+
+ } 
+ /* ,"newPassword":"123123123","confirmNewPassword":"123123123" */
+  
+  form {
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    color: rgba(3,37,65);;
+    text-align: center;
+  }
+  
+  button {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    background-color: rgba(3,37,65);;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  
+  #lable{
+    background-color: brown;
+    font-size: medium;
+    font-weight: bolder;
+    color: aliceblue;
+  }
+  #CreateAccountSignInImg{
+    width: 200px;
+    height: auto;
+  }
+  #CreateAccountSignInTitle{
+    text-align: center;
+  }
+
+  #Toast{
+    width: 100%;
+    height: auto;
+  }
+  #ToastTitle{
+    text-align: center;
+  }
+  #CreateAccountContinueCheeck{
+    text-align: left;
+  }
+
+ #flexCheckIndeterminate{
+  width: 10px;
+  height: auto;
+ }
+
+ .separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #504f4f4d;
+}
+
+.separator:not(:empty)::before {
+  margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: .25em;
+}
+
+.myButton2 {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+  margin-bottom: 10px;
+}
+.myButton2:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+ 

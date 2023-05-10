@@ -1,0 +1,381 @@
+:root {
+	--main-header-bg: #232f3e;
+	--second-header-bg: #131921;
+	--main-border: #ff9000;
+	--main-border-shadow: #febd69;
+	--main-text: #f3a847;
+	--second-text: white;
+	--main-search-opt: #cdcdcd;
+	--second-search-opt: #f3f3f3;
+	--border-radius: 0.2rem;
+	background: black;
+}
+
+/* #nav-bar {
+	display: flex; 
+	flex-flow: column nowrap;
+	flex: 1;
+} */
+
+#nav-belt {
+	display: flex;
+	height: 3.5rem;
+	width: 100%;
+	background: var(--second-header-bg);
+}
+
+#nav-belt > .nav-left {
+	box-sizing: border-box;
+	display: flex;
+}
+
+#nav-logo {
+	box-sizing: border-box;
+	display: flex;
+	padding: 0.5rem 0 0.5rem 0.5rem;
+}
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
+.header__option:hover , .cart-data:hover{
+  border: 1px solid white !important;
+  border-radius: 3px;
+}
+
+#logo_image{
+  width: 7rem;
+  margin-top: 6px;
+}
+#nav-logo > #header__logo {
+	box-sizing: content-box;
+	display: flex;
+	align-items: center;
+	padding: 0 0.5rem 0 0.5rem;
+	margin: 0.1rem;
+}
+#nav-belt > .nav-fill {
+	box-sizing: border-box;
+	display: flex;
+	flex: 1 1 auto;
+}
+
+#nav-search {
+	box-sizing: border-box;
+	width: auto;
+	display: flex;
+	flex: 1 1 auto;
+	padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+	overflow: hidden;
+}
+#nav-search-bar-form {
+	box-sizing: border-box;
+	display: flex;
+	width: auto;
+	flex: 1 1 auto;
+	border-radius:  var(--border-radius);
+	overflow: hidden;
+}
+.searchListResult{
+	padding: 6px 15px;
+	/* margin-bottom: 5px; */
+	font-weight: bold;
+	color: #666;
+	flex: 1 1 auto;
+}
+.searchList_icon{
+	padding: 14px 15px;
+	margin-bottom: 5px;
+}
+#header__searchInput {
+	height: 30px;
+	padding: 10px;
+	border: none;
+	outline: none;
+}
+ #SearchResultList{
+	margin-left: 2px;
+    margin-top: 11px;
+	position: absolute;
+	max-width: 60.2em;
+	max-height: 10rem;
+	overflow-y: scroll;
+	width: 100%;
+	background: white;
+}
+.searchListResult:hover{
+	background: #cdcdcd;
+	color: #131921;
+}
+#DivHeaderSearchBar{
+	width: 95%;
+	position: relative;
+}
+#nav-search-bar-form:focus-within {
+	box-sizing: border-box;
+	border: 0.1rem solid var(--main-border);
+	margin: 0 -0.2rem 0 -0.2rem;
+	box-shadow: 0rem 0rem 0.3rem var(--main-border-shadow);
+}
+#header__searchIcon {
+  padding: 5px;
+  cursor: pointer;
+  width: 37px;
+  font-weight: bold;
+  font-size: 18px;
+  height: 30px !important;
+  background-color: #cd9042;
+}
+
+#nav-search-bar-form .nav-left #navbarScrollingDropdown1 {
+	display: flex;
+	color: black;
+	padding: 0.5rem 0.5rem 6px 0.5rem;
+	flex: 1 1 auto;
+	width: 100%;
+	float: none;
+	height: 100%;
+	align-items: center;
+}
+
+#nav-search-bar-form .nav-fill {
+	box-sizing: border-box;
+	/* display: flex; */
+	position: static;
+  	float: none;
+	flex: 1 1 auto;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background: white;
+	/* border-left:auto solid var(--main-search-opt); */
+	border-right: 0.1rem solid var(--main-text);
+}
+#nav-search-bar-form .nav-fill .nav-left {
+	box-sizing: border-box;
+  	display: flex;
+	position:absolute;
+	background:auto solid var(--main-search-opt);
+	align-items: center;
+}
+#nav-search-bar-form .nav-fill input {
+	box-sizing: border-box;
+	flex: 1 1 auto;
+	padding: 0;
+	width: auto;
+	font-size: 1rem;
+	text-indent: 0.5rem;
+	border: 0;
+}
+
+ #nav-search-bar-form .nav-fill > input:focus {
+	outline: none;
+} 
+
+#nav-search-bar-form #nav-right {
+	box-sizing: border-box;
+	display: flex;
+	background: #cd9042;
+	align-items: center;
+}
+
+#nav-search-bar-form .nav-right > button {
+	display: flex;
+	flex: 1 1 auto;
+	align-items: center;
+	border: 0;
+	background: var(--main-border-shadow);
+	width: 100%;
+	height: 100%;
+	padding: 0 0.5rem 0 0.5rem;
+	cursor: pointer;
+}
+/* 
+#nav-search-bar-form .nav-right > button:hover {
+	background: var(--main-text);
+} */
+
+#nav-belt > .nav-right {
+	box-sizing: border-box;
+	display: flex;
+}
+
+#nav-tools {
+	display: flex;
+	flex: auto; 
+	padding-left: 1.5em;
+    padding-right: 1em;
+}
+
+.header__optionLineOne {
+  font-size: 10px;
+}
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+#navbarScrollingDropdownHeader{
+  width: 550px;
+}
+
+#navbarScrollingDropdownHeader{
+  width: 550px;
+}
+
+#headerNewCustomerSpan{
+  display: flex;
+  justify-content: center;
+  font-size: small;
+}
+
+#singinHeader{
+  width: 200px;
+}
+.myButton {
+  box-shadow: 0px 1px 0px 0px #fff6af;
+  background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  background-color:#ffec64;
+  border-radius:6px;
+  border:1px solid #ffaa22;
+  display:inline-block;
+  cursor:pointer;
+  color:#333333;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffee66;
+  width: 200px;
+  text-align: center;
+}
+.myButton:hover {
+background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+background-color:#ffab23;
+}
+.myButton:active {
+position:relative;
+top:1px;
+}
+#header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+#stext-warning{
+	position: absolute;
+	margin-top: -0.3rem;
+	color: #e77600;
+	font-weight: bolder;
+    margin-left: 1.1rem;
+    margin-right: 0.9rem;
+}
+
+#hrSignIn{
+  border: 0;
+  height: 2px;
+  font-size: larger;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.vl {
+  border-left: 0.1px solid rgb(181, 157, 0);
+  height: 300px;
+}
+
+#ColNav , #Col_ALL{
+  text-align: start;
+  margin-left: 9px;
+}
+
+#ColNav a, #Col_ALL a{
+  text-decoration: none;
+  color: #333333;
+}
+
+#ColNav a:hover ,#Col_ALL a:hover{
+  color: #ffaa22;
+  text-decoration: underline;
+}
+
+.ColNav1{
+  margin-left: 10px;
+}
+/* Icons */
+#nav-cart .nav-cart-icon,.nav-cart .nav-cart-icon {
+	background-position: -10px -340px;
+	width: 40px;
+	height: 38px;
+	display: block;
+	overflow: hidden;
+	margin-top: 5px;
+	}
+  .nav-sprite {
+	background-image: url(https://m.media-amazon.com/images/G/42/gno/sprites/nav-sprite-global-2x-hm-dsk-reorg._CB405931292_.png);
+	background-size: 350px;
+  }
+  .All_closeBtn {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 390px;
+	color: white;
+	font-size: 50px;
+	cursor: pointer;
+	transform: translateY(-5px);
+	z-index: 75;
+  }
+  body[dir='rtl'] .All_closeBtn {
+	right: 0;
+	margin-right: 390px;
+	transform: translateY(-5px);
+  }
+
+  /****************input search box ***************/
+.inputsearch{
+    width:650px;
+    margin:5px 0px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.AllSelectCatory select{
+    width:  50px;
+    height: 100%;
+    border:none;
+    background-color: rgb(233, 233, 233);
+}
+.AllSelectCatory select:hover{
+    background-color: rgb(197, 195, 195);
+}
+.searchicon{
+    height: 42px;
+    width: 60px;
+    font-size: 25px;
+}
+.inputsearchbox input{
+    width: 540px;
+    border:none;
+    outline:none;
+    padding:0px 5px;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 710px) and (min-width: 200px) {
+	.nav-fill,#nav-search{
+		display: none !important;
+		
+	}
+	
+}
+@media only screen and (max-width: 460px) and (min-width: 200px) {
+    .hideDatainResp{
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 280px){
+    .hideRes280data{
+        display: none !important;
+    }
+}

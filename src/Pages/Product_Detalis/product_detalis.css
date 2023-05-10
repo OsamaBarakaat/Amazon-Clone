@@ -1,0 +1,89 @@
+.product_detalis{
+    justify-content: space-around;
+}
+#product_imgs {
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.left {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.left_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.img_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #eee;
+    cursor: pointer;
+}
+.img_wrap img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.left_2{
+    position: relative;
+}
+
+.left_2 img {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+}
+.Active {
+    border: 2px solid #e77600;
+}
+
+.addToCart{
+    padding: 1rem;
+    border:1px solid #ddd;
+
+}
+
+.side_data{
+    display: block;
+    margin: 10px 0;
+}
+
+.reviews{
+    justify-content: space-evenly;
+}
+
+
+.img-wrapper{
+    width: 80%;
+    margin: 5% 5% 5% 10%;
+    position: relative;
+}
+
+.img-zoom-lens{
+    position: absolute;
+    border: 1px solid #dddd;
+    width: 80px;
+    height: 83px;
+    visibility: hidden;
+    cursor: pointer;
+    background: url('https://m.media-amazon.com/images/G/01/apparel/rcxgs/tile._CB483369110_.gif');
+}
+
+.pro_info{position: relative;}
+
+.img-zoom-result{
+    background-color: teal;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: 111;
+    visibility: hidden;
+}

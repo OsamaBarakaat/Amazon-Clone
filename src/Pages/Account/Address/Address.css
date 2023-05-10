@@ -1,0 +1,45 @@
+#containerAddressAccount{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#yourAddressAddressOrder{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#addAddressPlusAccount{
+    border: 2px dashed #C7C7C7;
+    border-radius: 5px;
+    text-align: center;
+    height: 220px;
+    vertical-align: middle;
+}
+#addAddressPlusAccount:hover{
+    cursor: pointer;
+}
+#addressPlusIcon{
+    font-size: 100px;
+    color: rgb(208, 208, 208);
+}
+#AddressCardImg{
+    width: 50px;
+    height: auto;
+}
+#removeLinkAccountAddress{
+    margin-left: 10px;
+}
+#removeLinkAccountAddress,#EditLinkAccountAddress{
+    text-decoration: none;
+    color: rgb(30, 128, 95);
+}
+#removeLinkAccountAddress:hover , #EditLinkAccountAddress:hover{
+    color: rgb(160, 3, 3);
+    text-decoration: underline;
+
+}
+#EditLinkAccountAddress,#removeLinkAccountAddress{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+

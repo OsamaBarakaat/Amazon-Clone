@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+
+.cart{
+    justify-content: space-evenly;
+}
+
+.cart-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-header h1{
+    width: fit-content;
+    padding: 10px;
+}
+
+.cart-header span{
+    position: relative;
+    top: 50px;
+}
+
+.cart > div{
+    background-color: #FFF;
+}
